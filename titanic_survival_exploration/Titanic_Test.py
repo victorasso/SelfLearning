@@ -101,8 +101,7 @@ def predictions_3(data):
             else:
                 predictions.append(0)    
     	if((passenger['Sex'] == 'male')):
-            if(passenger['Pclass'] >=2):
-                predictions.append(0)
+            predictions.append(0) 
 
 
 
